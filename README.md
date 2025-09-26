@@ -1,12 +1,35 @@
-# React + Vite
+# Trip Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application to manage trips with destination details, images, and quick access to Google Maps.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- View trip details including destination, dates, price, and description
+- Display destination images (from Unsplash or fallback)
+- Open Google Maps for any destination directly
+- Edit or delete trips
+- Responsive and user-friendly card design
 
-## Expanding the ESLint configuration
+## Requirements
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Node.js >= 16.x
+- npm >= 8.x or yarn
+- React 18.x
+- React Router DOM
+- Tailwind CSS
+
+## Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/trip-manager.git
+cd trip-manager
+
+```bash
+npm install
+# or
+yarn install
+
+```bash
+npm run dev
